@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Music Box</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+</head>
+
+  <body>
+
+    <div class="nav-bar">
+      <nav>
+        <div id="nav-list">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html">Home</a></liv>
+        </div>
+    </div>
+
+      <div id="nav-logo">
+        <img src="assets/spotify-logo.png" id="logo"/>
+    </nav>
+
+      <h1>Music Box</h1>
+      <form action="#" class="js-search-form">
+          <label for="artist">Artist</label>
+          <input id="artist" type="text" class="js-query-artist" placeholder="Queen" required>
+
+          <label for="song-title">Song Title</label>
+          <input id="song-title" type="text" class="js-query-title" placeholder="Under Pressure" required>
+          <button type="submit">Search</button>
+      </form>
+
+      <div class="js-search-results">
+      </div>
+
+    <script src="index.js"></script>
+
+  </body>
+</html>
